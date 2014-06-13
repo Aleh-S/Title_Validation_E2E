@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="21" name="core.AllTests" time="0.035" errors="0" skipped="0">
+<testsuite tests="25" failures="21" name="core.AllTests" time="0.04" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib"/>
@@ -64,10 +64,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 0 : exp: learn2test.net; act: learn2test.net]" time="0.003"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 0 : exp: learn2test.net; act: learn2test.net]" time="0.002"/>
   <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 1 : exp: www.alegro.com; act: www.alegro.com]" time="0"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 2 : exp: www.alegro.net; act: www.alegro.net]" time="0"/>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 3 : exp: learn; act: learn2test.net]" time="0.004">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 2 : exp: www.alegro.net; act: www.alegro.net]" time="0.001"/>
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 3 : exp: learn; act: learn2test.net]" time="0.003">
     <failure message="FAILED expected:&lt;learn[]&gt; but was:&lt;learn[2test.net]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;learn[]&gt; but was:&lt;learn[2test.net]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -175,7 +175,7 @@
     <system-out>Test Case: TC-001.05 Expected Result: learn2test.com Actual Result: learn2test.net
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 5 : exp: learn2test; act: learn2test.net]" time="0">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 5 : exp: learn2test; act: learn2test.net]" time="0.001">
     <failure message="FAILED expected:&lt;learn2test[]&gt; but was:&lt;learn2test[.net]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;learn2test[]&gt; but was:&lt;learn2test[.net]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -229,7 +229,7 @@
     <system-out>Test Case: TC-001.06 Expected Result: learn2test Actual Result: learn2test.net
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 6 : exp: Tutorials for jQueryUI; act: Tutorials for LISP, jQueryUI, QC, D Programming, JCL, Computer Programming, Cloud Computing, Java DIP, Bootstrap, Lua, DBMS, QTP, Data Mining, Javamail API, MongoDB, Git, Swing, Objective C, Android, jMeter, Data Communication, MIS, AWT, SVN, TestNG, VBScript, MATLAB, EJB, IPv6, IPv4, E-Commerce, PostgreSQL, SQLite, SDLC, Assembly, Operating System, JasperReports, JSON, iOS, Design Pattern, VB.Net, Computer Fundamentals, JSF, C Sharp, Flex, GWT, PL/SQL, Eclipse, JUnit, Pascal, Maven, Scala, Spring, Struts 2, HTML5, ANT, iBATIS, log4j, Hibernate, JSP, JAVA, JDBC, AJAX, WAP, SQL, MySQL, C/C++, PERL, PHP, Ruby, Ruby on Rails, Python, HTML, XHTML, CSS, CGI, Shell, Unix, JavaScript, jQuery, Radius, UML, GPRS, GSM,i-Mode, WiFi, WML, WiMax, SOAP, UDDI, Socket, WSDL, Makefile, Prototype, Six Sigma, CMMI, EVM, PMP Exams]" time="0.002">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 6 : exp: Tutorials for jQueryUI; act: Tutorials for LISP, jQueryUI, QC, D Programming, JCL, Computer Programming, Cloud Computing, Java DIP, Bootstrap, Lua, DBMS, QTP, Data Mining, Javamail API, MongoDB, Git, Swing, Objective C, Android, jMeter, Data Communication, MIS, AWT, SVN, TestNG, VBScript, MATLAB, EJB, IPv6, IPv4, E-Commerce, PostgreSQL, SQLite, SDLC, Assembly, Operating System, JasperReports, JSON, iOS, Design Pattern, VB.Net, Computer Fundamentals, JSF, C Sharp, Flex, GWT, PL/SQL, Eclipse, JUnit, Pascal, Maven, Scala, Spring, Struts 2, HTML5, ANT, iBATIS, log4j, Hibernate, JSP, JAVA, JDBC, AJAX, WAP, SQL, MySQL, C/C++, PERL, PHP, Ruby, Ruby on Rails, Python, HTML, XHTML, CSS, CGI, Shell, Unix, JavaScript, jQuery, Radius, UML, GPRS, GSM,i-Mode, WiFi, WML, WiMax, SOAP, UDDI, Socket, WSDL, Makefile, Prototype, Six Sigma, CMMI, EVM, PMP Exams]" time="0.003">
     <failure message="FAILED expected:&lt;Tutorials for [jQueryUI]&gt; but was:&lt;Tutorials for [LISP, jQueryUI, QC, D Programming, JCL, Computer Programming, Cloud Computing, Java DIP, Bootstrap, Lua, DBMS, QTP, Data Mining, Javamail API, MongoDB, Git, Swing, Objective C, Android, jMeter, Data Communication, MIS, AWT, SVN, TestNG, VBScript, MATLAB, EJB, IPv6, IPv4, E-Commerce, PostgreSQL, SQLite, SDLC, Assembly, Operating System, JasperReports, JSON, iOS, Design Pattern, VB.Net, Computer Fundamentals, JSF, C Sharp, Flex, GWT, PL/SQL, Eclipse, JUnit, Pascal, Maven, Scala, Spring, Struts 2, HTML5, ANT, iBATIS, log4j, Hibernate, JSP, JAVA, JDBC, AJAX, WAP, SQL, MySQL, C/C++, PERL, PHP, Ruby, Ruby on Rails, Python, HTML, XHTML, CSS, CGI, Shell, Unix, JavaScript, jQuery, Radius, UML, GPRS, GSM,i-Mode, WiFi, WML, WiMax, SOAP, UDDI, Socket, WSDL, Makefile, Prototype, Six Sigma, CMMI, EVM, PMP Exams]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;Tutorials for [jQueryUI]&gt; but was:&lt;Tutorials for [LISP, jQueryUI, QC, D Programming, JCL, Computer Programming, Cloud Computing, Java DIP, Bootstrap, Lua, DBMS, QTP, Data Mining, Javamail API, MongoDB, Git, Swing, Objective C, Android, jMeter, Data Communication, MIS, AWT, SVN, TestNG, VBScript, MATLAB, EJB, IPv6, IPv4, E-Commerce, PostgreSQL, SQLite, SDLC, Assembly, Operating System, JasperReports, JSON, iOS, Design Pattern, VB.Net, Computer Fundamentals, JSF, C Sharp, Flex, GWT, PL/SQL, Eclipse, JUnit, Pascal, Maven, Scala, Spring, Struts 2, HTML5, ANT, iBATIS, log4j, Hibernate, JSP, JAVA, JDBC, AJAX, WAP, SQL, MySQL, C/C++, PERL, PHP, Ruby, Ruby on Rails, Python, HTML, XHTML, CSS, CGI, Shell, Unix, JavaScript, jQuery, Radius, UML, GPRS, GSM,i-Mode, WiFi, WML, WiMax, SOAP, UDDI, Socket, WSDL, Makefile, Prototype, Six Sigma, CMMI, EVM, PMP Exams]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -391,7 +391,7 @@
     <system-out>Test Case: TC-001.09 Expected Result: Programming Actual Result: Tutorials for LISP, jQueryUI, QC, D Programming, JCL, Computer Programming, Cloud Computing, Java DIP, Bootstrap, Lua, DBMS, QTP, Data Mining, Javamail API, MongoDB, Git, Swing, Objective C, Android, jMeter, Data Communication, MIS, AWT, SVN, TestNG, VBScript, MATLAB, EJB, IPv6, IPv4, E-Commerce, PostgreSQL, SQLite, SDLC, Assembly, Operating System, JasperReports, JSON, iOS, Design Pattern, VB.Net, Computer Fundamentals, JSF, C Sharp, Flex, GWT, PL/SQL, Eclipse, JUnit, Pascal, Maven, Scala, Spring, Struts 2, HTML5, ANT, iBATIS, log4j, Hibernate, JSP, JAVA, JDBC, AJAX, WAP, SQL, MySQL, C/C++, PERL, PHP, Ruby, Ruby on Rails, Python, HTML, XHTML, CSS, CGI, Shell, Unix, JavaScript, jQuery, Radius, UML, GPRS, GSM,i-Mode, WiFi, WML, WiMax, SOAP, UDDI, Socket, WSDL, Makefile, Prototype, Six Sigma, CMMI, EVM, PMP Exams
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 9 : exp: Yan.ru; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 9 : exp: Yan.ru; act: Яндекс]" time="0.002">
     <failure message="FAILED expected:&lt;[Yan.ru]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[Yan.ru]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -661,7 +661,7 @@
     <system-out>Test Case: TC-001.14 Expected Result: www.yandex Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 14 : exp: ru; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 14 : exp: ru; act: Яндекс]" time="0.002">
     <failure message="FAILED expected:&lt;[ru]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[ru]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -715,7 +715,7 @@
     <system-out>Test Case: TC-001.15 Expected Result: ru Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 15 : exp: RU; act: Яндекс]" time="0.002">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 15 : exp: RU; act: Яндекс]" time="0.004">
     <failure message="FAILED expected:&lt;[RU]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[RU]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -769,7 +769,7 @@
     <system-out>Test Case: TC-001.16 Expected Result: RU Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 16 : exp: yamdex.com; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 16 : exp: yamdex.com; act: Яндекс]" time="0">
     <failure message="FAILED expected:&lt;[yamdex.com]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[yamdex.com]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -928,7 +928,7 @@
     <system-out>Test Case: TC-001.19 Expected Result: Yand.com Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 19 : exp: yandex.net; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 19 : exp: yandex.net; act: Яндекс]" time="0.002">
     <failure message="FAILED expected:&lt;[yandex.net]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[yandex.net]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -981,7 +981,7 @@
     <system-out>Test Case: TC-001.20 Expected Result: yandex.net Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 20 : exp: yandex.; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 20 : exp: yandex.; act: Яндекс]" time="0">
     <failure message="FAILED expected:&lt;[yandex.]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[yandex.]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -1034,7 +1034,7 @@
     <system-out>Test Case: TC-001.21 Expected Result: yandex. Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 21 : exp: yandex.ua; act: Яндекс]" time="0.002">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 21 : exp: yandex.ua; act: Яндекс]" time="0.006">
     <failure message="FAILED expected:&lt;[yandex.ua]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[yandex.ua]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -1087,7 +1087,7 @@
     <system-out>Test Case: TC-001.22 Expected Result: yandex.ua Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 22 : exp: yandex.du; act: Яндекс]" time="0.006">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 22 : exp: yandex.du; act: Яндекс]" time="0.004">
     <failure message="FAILED expected:&lt;[yandex.du]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[yandex.du]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
@@ -1140,7 +1140,7 @@
     <system-out>Test Case: TC-001.23 Expected Result: yandex.du Actual Result: Яндекс
 </system-out>
   </testcase>
-  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 23 : exp: learn2test.net; act: Яндекс]" time="0.001">
+  <testcase classname="core.SeleniumTest" name="test_Title_Validation[Iteration # 23 : exp: learn2test.net; act: Яндекс]" time="0">
     <failure message="FAILED expected:&lt;[learn2test.net]&gt; but was:&lt;[Яндекс]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: FAILED expected:&lt;[learn2test.net]&gt; but was:&lt;[Яндекс]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at core.SeleniumTest.test_Title_Validation(SeleniumTest.java:58)
